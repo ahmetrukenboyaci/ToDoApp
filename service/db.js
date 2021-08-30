@@ -13,11 +13,3 @@ function dbclose() {
 }
 
 module.exports = {dbconnect, dbclose};
-
-
-// module.exports = async () => {
-//     try {
-//         await mongoose.connect(connectionString);
-//         console.log("Connected to database.");
-//     } catch (error) {
-//   
