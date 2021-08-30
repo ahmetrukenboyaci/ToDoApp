@@ -1,0 +1,19 @@
+.toDoInputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  width: 100%;
+
+  &:focus-within {
+    border: 1px solid #233184;
+  }
+
+  & input {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+}

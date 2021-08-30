@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDoInput should render initial layout 1`] = `
+Array [
+  <div
+    className="toDoInputContainer"
+  >
+    <input
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Add a To Do"
+    />
+  </div>,
+]
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDoListItem should render initial layout 1`] = `
+Array [
+  <div
+    className="toDoListItemContainer "
+    id="toDoListItemContainer"
+  >
+    <div
+      className="text"
+      id="text"
+    />
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="toggleCompletion"
+        onClick={[Function]}
+      >
+        <Uncompleted
+          height={20}
+        />
+      </div>
+      <div
+        className="deleteToDo"
+        onClick={[Function]}
+      >
+        <Delete
+          height={20}
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;
