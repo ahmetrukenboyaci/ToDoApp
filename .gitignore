@@ -1,3 +1,5 @@
 /service/node_modules
 /service/package-lock.json
 /.idea
+/client/node_modules
+/client/package-lock.json

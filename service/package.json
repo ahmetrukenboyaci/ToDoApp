@@ -3,19 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "test": "mocha -r esm app.test.js",
+    "test": "mocha __tests__",
     "start": "node -r esm app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esm": "^3.2.25"
+    "chai-http": "^4.3.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.1"
   },
   "devDependencies": {
     "chai": "^4.3.4",
+    "cors": "^2.8.5",
     "mocha": "^9.1.0"
   }
 }
